@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/play"
+        android:title="เล่น">
+    </item>
+    <item
+        android:id="@+id/picture"
+        android:title="ดูรูปภาพ">
+    </item>
+    <item
+        android:id="@+id/voice"
+        android:title="ฟังเสียง">
+    </item>
+
+
+</menu>

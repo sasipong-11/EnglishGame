@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/edit"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/data"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="History and Data" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+        <item
+            android:id="@+id/StopMusic"
+            android:icon="@drawable/ic_volume_off_black_24dp"
+            android:title="Mute Music " />
+        <item
+            android:id="@+id/credits"
+            android:icon="@drawable/credit"
+            android:title="Credit" />
+
+    </group>
+    <item android:title="Admin"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Setting" />
+            <item
+                android:id="@+id/EditUser"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="Edit User Information" />
+            <item
+                android:id="@+id/addPerson"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="Add User" />
+        </menu>
+    </item>
+
+</menu>

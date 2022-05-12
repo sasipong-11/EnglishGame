@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.GameEnglish">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <service
+            android:name="com.example.GameEnglish.MusicBG.MusicService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.example.GameEnglish.menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.GameEnglish.login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.GameEnglish.word_builder.easy.ex3_easy_game"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".word_builder.nomal.ex3_nomal_game"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.GameEnglish.word_builder.easy.ex3_easy_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.nomal.ex3_nomal_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.hard.ex3_hard_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.hard.ex3_hard_game"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.GameEnglish.word_builder.st_easy.st_ex3_easy_inMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.word_builder.st_easy.grid_view_ex3_st_easy_selectWord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.word_builder.st_easy.st_ex3_easy_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.word_builder.easy.ex3_easy_game_st"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".word_builder.st_nomal.st_ex3_normal_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.st_nomal.grid_view_ex3_st_normal_selectWord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.st_nomal.st_ex3_normal_inMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.nomal.ex3_normal_game_st"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".word_builder.st_hard.st_ex3_hard_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.st_hard.grid_view_ex3_st_hard_selectWord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.st_hard.st_ex3_hard_inMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.hard.ex3_hard_game_st"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.GameEnglish.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.navigationDrawer.F_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.Edit_User_From_Admin.Call_GridAdapter_User"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.Edit_User_From_Admin.GridAdapter_User_Modifiled"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.word_builder.exercise3_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.GameEnglish.Add_Word"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.My_Score.My_Score_main_word_builder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.Edit_User_From_Admin.Admin_score_word_builder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.flash_card_game"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.flash_card_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.st_flash_card_adapter.st_flash_card_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.st_flash_card_adapter.gridview_flash_card_select_char"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.st_flash_card_adapter.flash_card_select_image"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.flash_card_game_st"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.My_Score.My_Score_main_flash_card"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.navigationDrawer.F_setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.navigationDrawer.F_data"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.navigationDrawer.F_Word_data"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.word_builder.st_easy.st_ex3_easy_update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.st_nomal.st_ex3_normal_update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word_builder.st_hard.st_ex3_hard_update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.st_flash_card_adapter.st_flash_card_inMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.st_flash_card_adapter.st_flash_card_selct_char_update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.flash_card.st_flash_card_adapter.st_flash_card_select_image_update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.Edit_User_From_Admin.Admin_score_flash_card"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.Export_Import.Export_Word"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.Export_Import.Export_Sentence"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.GameEnglish.modify_word"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.GameEnglish.credits" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.GameEnglish.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

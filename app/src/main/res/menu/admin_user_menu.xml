@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/edit_user"
+        android:title="Edit user">
+    </item>
+    <item
+        android:id="@+id/admin_score_fc"
+        android:title="Flash Card Score">
+    </item>
+    <item
+        android:id="@+id/admin_score_ex3"
+        android:title="Word Builder Score">
+    </item>
+</menu>

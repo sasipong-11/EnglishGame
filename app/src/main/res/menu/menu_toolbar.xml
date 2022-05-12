@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/close_music"
+        android:title="turn off music">
+    </item>
+
+    <item android:id="@+id/manual"
+        android:title="how to play">
+    </item>
+
+    <item android:id="@+id/set_Answer"
+        android:title="ส่งคำตอบ">
+    </item>
+
+</menu>

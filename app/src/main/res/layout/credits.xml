@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_back" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="ในส่วนนี้จะกล่าวถึงแหล่งที่มาของรูปภาพ เสียงดนตรีและฐานข้อมูลที่นำมาใช้ในแอปพลิเคชัน English Learning Game\n"/>
+
+
+
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="1. อ้างอิงรูปภาพจากแหล่งที่มาต่าง ๆ ในแอปพลิเคชัน \n"/>
+
+
+
+
+
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="2. https://www.youtube.com/watch?v=YNbqwp9x-2I เสียงดนตรีประกอบแอปพลิเคชัน \n"/>
+
+</LinearLayout>
